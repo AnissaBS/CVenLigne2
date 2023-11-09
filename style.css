@@ -1,0 +1,73 @@
+*{
+    margin: auto;
+    padding: auto;
+    height: 100%;
+}
+
+.body{
+    /* box-shadow: 1px 1px 1px black; */
+    width: 100%;
+    height: 100%;
+}
+
+#barreGauche{
+    background-color: rgb(94, 129, 94);
+    margin: 20px;
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+#barreHaut{
+    background-color: rgb(173, 205, 173);
+    margin: 50px 20px 0px 200px;
+    width: 90%;
+    height: 25%;
+    position: fixed;
+    display: flex;
+}
+
+#initiales{
+    font-family:'playfair display';
+    color: rgb(94, 129, 94);
+    /* text-align: center; */
+    font-size: 165px;
+    text-align: center;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nom{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 32px;
+    position: absolute;
+    background-color: rgb(173, 205, 173);
+    width: 320px;
+    height: 38px;
+    border-radius: 5px;
+    margin-left: 40.8%;
+    margin-top: 6.5%;
+    text-align: center;
+    /* border: solid red; */
+}
+
+.nom{
+    text-align: center;
+}
+
+/* @media screen and (min-width:800px){
+    #nom{
+        margin-left: 39.9%;
+        margin-top: 7.2%;
+    }
+}
+
+@media screen and (min-width:400px){
+    #nom{
+        margin-left: 39.9%;
+        margin-top: 20%;
+    }
+} */
